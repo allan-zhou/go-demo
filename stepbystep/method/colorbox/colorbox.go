@@ -71,6 +71,7 @@ func (bl BoxList) setAllColor(c Color) {
 func printBox(boxes BoxList) {
 	for i, v := range boxes {
 		fmt.Printf("box'%d volume is: %v ", i, v.Volume())
+		
 		fmt.Printf("  color is: %v \n", v.color.ToString())
 	}
 }
