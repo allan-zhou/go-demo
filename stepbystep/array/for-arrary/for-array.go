@@ -7,7 +7,7 @@ import (
 func main() {
 	arr := []int{11, 22, 33, 44, 55}
 
-	fmt.Println("For")
+	fmt.Println("for array")
 	for i := 0; i < len(arr); i++ {
 		fmt.Println(i)
 	}
