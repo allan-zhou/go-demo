@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"strings"
+	"strings"	
 )
 
 type Person struct {
 	firstName string
-	lastName  string
+	lastName  string	
 }
 
 func upperPerson(p *Person) {
