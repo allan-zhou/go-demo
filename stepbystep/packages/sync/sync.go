@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"sync"
-	my "zhoujl/go-demo/stepbystep/packages/mypkg"
+	my "go-demo/stepbystep/packages/mypkg"
 )
 
 type Info struct{

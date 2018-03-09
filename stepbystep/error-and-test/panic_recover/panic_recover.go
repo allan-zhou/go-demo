@@ -16,6 +16,7 @@ func test()  {
 	}()
 
 	badcall()
+
 	fmt.Println("after bad call")
 }
 

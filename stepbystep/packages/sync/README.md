@@ -10,7 +10,6 @@
 
 ## sync.Mntex
 
-Go语言中这种锁的机制通过Sync包中的Mutex来实现。
+Go语言中这种锁的机制通过Sync包中的Mutex来实现。sync 来源于 "synchronized" 一词，这意味着线程将有序的对同一变量进行访问。
 
 sync.Mutex是一个互斥锁，它的作用是守护在临界区入口来确保同一时间只能有一个线程进入临界区。
-
